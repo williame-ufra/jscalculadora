@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 14
+script:
+  - npm run test
+notifications:  
+  email:  
+    recipients:  
+    - ufrapl21@gmail.com
+    - 23jhonpires23@gmail.com
+    on_success: always  
+    on_failure: always
